@@ -1,3 +1,0 @@
-# Let's talk about networking
-
-Coming soon...

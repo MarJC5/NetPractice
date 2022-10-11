@@ -7,3 +7,6 @@
 </h1>
 
 ## [Let's talk about networking](./doc/Summary.md)
+
+- [IP adresse](/doc/ip-adresse.md)
+- [Mask](/doc/mask.md)
