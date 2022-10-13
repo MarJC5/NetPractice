@@ -14,6 +14,17 @@ Class A, B, and C networks have natural masks, or default subnet masks:
 - Class B: 255.255.0.0
 - Class C: 255.255.255.0
 
+## How to calculate CIDR
+
+Example: `192.168.1.0/24`
+=>  ipv4(`32bit`)   => `32-24=8`
+=>  host            => `2^8=256`
+=>  range           => `192.168.1.1 <-> 192.168.1.254`
+=>  subnet          => `192.168.1.0`
+=>  broadcast       => `192.168.1.255`
+
+More you increase the `/XX`, smaller the number of host will comes.
+
 ## Subnet Mask Cheat Sheet
 
 | CIDR | Dot-decimal     | Number of IP-addresses  per subnet | Usable IP-addresses   per subnet | Number of subnets |

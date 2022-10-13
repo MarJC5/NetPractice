@@ -6,7 +6,7 @@
     </h4>
 </h1>
 
-## [Let's talk about networking](./doc/Summary.md)
+## Let's talk about networking
 
 - [IP adresse](/doc/ip-adresse.md)
 - [Mask](/doc/mask.md)
